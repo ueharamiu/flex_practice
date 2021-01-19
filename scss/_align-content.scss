@@ -1,0 +1,9 @@
+.container {
+    flex-wrap: wrap;
+    // align-content: stretch; //初期値。親要素の高さに合わせて等間隔に子要素を配置
+    // align-content: flex-start; //親要素の開始位置から配置。上揃え
+    // align-content: flex-end; //親要素の終点位置から配置。下揃え
+    // align-content: center; //縦軸を基準に複数行になっている子要素を中央に配置
+    // align-content: space-between; //最初と最後の子要素を上下の端に配置。他の子要素は等間隔に配置
+    align-content: space-around; //最初と最後の子要素含め、均等に間隔をあけて配置
+}
